@@ -51,7 +51,7 @@ int main(){
 //to check the input is alphabitc or numeric in deep.
 int main()
 {
-    cout<<"Enter 1 to check unpper lower case.\nEnter 2 to check number is +ve or -ve."<<endl;
+    cout<<"Enter 1 to check unpper lower case."<<endl;
     int a;
     cin>>a;
     if (a==1)
@@ -65,31 +65,9 @@ int main()
         else if(ch>='A'&&ch<='Z'){
             cout<<"given input is upper case"<<endl;
     }
-        else if(ch>='A'&&ch<='Z'){
-            cout<<"Given input is 0"<<endl;
-        }
         else{
             cout<<"Error";
     }
-    }
-    else if(a==2)
-    {
-        int ch;
-        cout<<"Enter alphabatice inpute"<<endl;
-        cin>>ch;
-        if (ch>0)
-        {
-            cout<<"The given input is +ve"<<endl;
-        }
-        else if(ch==0){
-            cout<<"The given input is neutral"<<endl;
-        }
-        else if(a<0){
-            cout<<"The given input is -ve"<<endl;
-        }
-        else{
-            cout<<"Error"<<endl;
-        }
     }
     else{
         cout<<"undifined input."<<endl;
